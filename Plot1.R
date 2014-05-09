@@ -10,5 +10,5 @@ sub$Date <- as.Date(sub$Date, format = "%d/%m/%Y")
 
 # Creating the plot3:
 png("plot1.png", width = 480, height = 480)
-hist(sub$Global_active_power, type="l", col='red',ylab= "Frequency", xlab="Global Active Power(kilowatts)")
+hist(sub$Global_active_power, type="l", main="Global Active Power",col='red',ylab= "Frequency", xlab="Global Active Power(kilowatts)")
 dev.off()
